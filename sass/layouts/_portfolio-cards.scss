@@ -1,0 +1,62 @@
+
+  .filter-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:-30px 0 0 -30px;
+  }
+  .cards {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+  }
+  
+  .cards:hover,
+  .cards:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    color: #ececec;
+  }
+  
+  
+   
+  .card-container-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border-left: 1px solid var(--card-border-color);
+    border-bottom: 1px solid var(--card-border-color);
+    border-right: 1px solid var(--card-border-color);
+  }
+  
+  
+  .card-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--background);
+  }
+  
+    .card-legend {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--color-contacts);
+    }
+  
+    
+  

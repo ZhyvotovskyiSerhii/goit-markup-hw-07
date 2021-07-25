@@ -1,0 +1,35 @@
+//BASE//
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+//COMPONENTS//
+@import './components/backdrop';
+@import './components/button-filter';
+@import './components/button';
+@import './components/close';
+@import './components/main-button';
+@import './components/modal-form';
+@import './components/social-links';
+
+//LAYOUTS//
+@import './layouts/activity';
+@import './layouts/address';
+@import './layouts/advantages';
+@import './layouts/clients';
+@import './layouts/footer-contacts-field';
+@import './layouts/footer-logo';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/menu';
+@import './layouts/logo';
+@import './layouts/navigation';
+@import './layouts/overlay-portfolio';
+@import './layouts/overlay';
+@import './layouts/portfolio-cards';
+@import './layouts/team';
+
+//UTILS//
+
+@import './utils/variables';
+@import './utils/visually-hidden';
