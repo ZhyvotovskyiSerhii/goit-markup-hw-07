@@ -78,6 +78,11 @@ ul {
 .button {
   display: inline-block;
   color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 30px;
@@ -195,6 +200,11 @@ ul {
 .main-button {
   display: inline-block;
   color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 30px;
