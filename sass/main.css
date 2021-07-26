@@ -79,6 +79,11 @@ ul {
 .button {
   display: inline-block;
   color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 30px;
@@ -149,11 +154,6 @@ ul {
 }
 
 .footer-button-icon {
-  position: absolute;
-  bottom: 50%;
-  right: 28px;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
   margin-left: 9px;
 }
 
@@ -220,6 +220,11 @@ ul {
 .main-button {
   display: inline-block;
   color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 30px;
@@ -495,13 +500,9 @@ ul {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.social-icon {
-  fill: currentColor;
-}
-
-.social-link:hover .item__social-icon,
-.social-link:focus .item__social-icon {
-  fill: #ffffff;
+.item__social-icon:hover,
+.item__social-icon:hover {
+  fill: #afb1b8;
   -webkit-transition: fill;
   transition: fill;
   -webkit-transition-duration: 250ms;
@@ -510,9 +511,29 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-delay: 0;
           transition-delay: 0;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link {
+.item__social-link:hover,
+.item__social-link:focus {
+  fill: #afb1b8;
+  -webkit-transition: fill;
+  transition: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item__social-link {
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,22 +543,9 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  color: #afb1b8;
-  background-color: transparent;
+  fill: #afb1b8;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: #2196f3;
-}
-
-.social-list__item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .activity {
