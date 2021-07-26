@@ -4,6 +4,9 @@
   }
   
   .button.footer-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 28px;
     margin-top: 0;
   }
    .primary:hover,
@@ -14,11 +17,9 @@
   }
   
   .footer-button-icon {
-    position: absolute;
-    bottom: 50%;
-    right: 28px;
-    transform: translateY(50%);
+    margin-left: 9px;
   }
+
   .buttons {
     padding-top: 94px;
     padding-bottom: 94px;
